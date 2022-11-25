@@ -1,0 +1,33 @@
+{
+  "name": "chrome-extension-google-search-helper",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aio392.git/Google-Search-Helper"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "format": "prettier --write '{public,src}/**/*.{css,html,js,svelte}'",
+    "lint": "eslint --fix --quiet src --ext .js,.svelte"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.0.0-beta.3",
+    "@sveltejs/vite-plugin-svelte": "1.3.1",
+    "@tsconfig/svelte": "3.0.0",
+    "@types/chrome": "0.0.203",
+    "eslint": "^8.28.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-svelte3": "^4.0.0",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.8.1",
+    "svelte": "3.53.1",
+    "svelte-check": "2.9.2",
+    "svelte-preprocess": "4.10.7",
+    "tslib": "2.4.1",
+    "typescript": "4.9.3",
+    "vite": "3.2.4"
+  }
+}
